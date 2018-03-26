@@ -1,0 +1,65 @@
+{
+  "dependencies": {
+    "@angular/common": "~2.0.0",
+    "@angular/compiler": "~2.0.0",
+    "@angular/core": "~2.0.0",
+    "@angular/forms": "~2.0.0",
+    "@angular/http": "~2.0.0",
+    "@angular/platform-browser": "~2.0.0",
+    "@angular/platform-browser-dynamic": "~2.0.0",
+    "@angular/router": "~3.0.0",
+    "@angular/upgrade": "~2.0.0",
+    "@types/gapi.youtube": "^3.0.30",
+    "angular-in-memory-web-api": "~0.1.1",
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "systemjs": "0.19.39",
+    "zone.js": "^0.6.25"
+  },
+  "description": "Angular2 youtube light player, using youtube iframe api. Inspired by echoes player. Complatible with latest release of angular 2.x.x.",
+  "devDependencies": {
+    "concurrently": "^3.0.0",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "e06d25627186da2a67f71a50d29b263eaf8cd332",
+    "tarball": "https://registry.npmjs.org/ng2-youtube/-/ng2-youtube-1.0.3.tgz"
+  },
+  "gitHead": "ba35b04a5c341e687f52bbc659f1f84c2a32aeaf",
+  "homepage": "https://github.com/mujtaba-ahmad/ng2-youtube#readme",
+  "license": "ISC",
+  "maintainers": [
+    {
+      "name": "mujtaba187",
+      "email": "mmuujji@gmail.com"
+    }
+  ],
+  "name": "ng2-youtube",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mujtaba-ahmad/ng2-youtube.git"
+  },
+   "keywords": [
+    "youtube",
+    "angular2",
+    "angular 2",
+    "youtube-bar",
+    "player",
+    "ng2"
+  ],
+  "scripts": {
+    "lite": "lite-server",
+    "postinstall": "typings install",
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "version": "1.1.4"
+}
